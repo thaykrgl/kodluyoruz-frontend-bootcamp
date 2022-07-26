@@ -1,6 +1,6 @@
-const Title = () => {
+const Title = (props) => {
   return (
-    <h1>Title</h1>
+    <h1 style={{ backgroundColor: props.bg, color: props.color }}>{props.text}</h1>
   )
 }
 
