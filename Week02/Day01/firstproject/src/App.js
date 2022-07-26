@@ -5,8 +5,8 @@ import Title from './Title';
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Paragraph />
+      <Title text="Yeni Başlık" bg="red" color="#fff" />
+      <Paragraph p="Yeni Paragraf" />
     </div>
   );
 }
