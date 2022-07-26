@@ -1,6 +1,6 @@
-const Paragraph = () => {
+const Paragraph = (props) => {
   return (
-    <p>Paragraph</p>
+    <p>{props.p}</p>
   )
 }
 
